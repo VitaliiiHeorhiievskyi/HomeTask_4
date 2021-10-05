@@ -52,6 +52,7 @@ namespace HomeTask_4
         {
             data = data.Replace("X^"," ");
             data = data.Replace('+', ' ');
+            data = data.Replace(".", ",");
             data = data.Replace("-", " -");
             string[] dates = data.Split();
             List<(int, double)> rankAndRealList = new List<(int, double)>();
@@ -62,7 +63,7 @@ namespace HomeTask_4
             foreach (var item in dates)
             {
                 if (index % 2 == 0)
-                    temp.Item2 = double.Parse(item,System.Globalization);
+                    temp.Item2 = double.Parse(item);
                 if (index % 2 == 1)
                 {
                     temp.Item1 = int.Parse(item);
