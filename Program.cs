@@ -11,7 +11,7 @@ namespace HomeTask_4
 
             polynom=Polynom.Parse("2X^3-3X^2+2.3X^4");
 
-
+            Console.WriteLine(polynom);
 
             Console.WriteLine(polynom);
         }
