@@ -1,0 +1,9 @@
+
+Dairy Product
+
+Name: Milk  
+Weight: 2200g 
+Price: 42 UAH
+Exparation date: 22
+Date of manufacture: 22.11.2020
+
